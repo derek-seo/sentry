@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sentry';
+  a: any = {};
 
   sendError() {
-    const a: any = {};
     const f = (a: any) => a.b;
-    f(a.b.c);
+    f(this.a.b.c);
   }
 }
