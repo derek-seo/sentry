@@ -12,8 +12,9 @@ export class AppComponent {
   constructor() {
     const f = (a: any) => a.b;
     f(this.a.b.c);
+    throw new Error('test');
   }
-  
+
   sendError() {
     const f = (a: any) => a.b;
     f(this.a.b.c);
