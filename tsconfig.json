@@ -11,8 +11,6 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "inlineSources": true,
-    "sourceRoot": "/",
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
