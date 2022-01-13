@@ -57,7 +57,7 @@
               ],
               "outputHashing": "all",
               "sourceMap": {
-                "hidden": false,
+                "hidden": true,
                 "scripts": true,
                 "styles": true,
                 "vendor": true
@@ -69,7 +69,7 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true,
+              "namedChunks": true
             }
           },
           "defaultConfiguration": "production"
