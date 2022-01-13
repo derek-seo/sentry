@@ -9,6 +9,11 @@ export class AppComponent {
   title = 'sentry';
   a: any = {};
 
+  constructor() {
+    const f = (a: any) => a.b;
+    f(this.a.b.c);
+  }
+  
   sendError() {
     const f = (a: any) => a.b;
     f(this.a.b.c);
