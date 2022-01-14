@@ -19,3 +19,4 @@ jobs:
         sourcemaps: './test/sentry'
         version_prefix: 'sentry@'
         version: '2.0.0'
+        url_prefix: '~'
