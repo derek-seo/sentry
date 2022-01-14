@@ -1,5 +1,4 @@
-name: Manual workflow
-
+name: Sentry action
 on:
   workflow_dispatch:
 
