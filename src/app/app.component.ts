@@ -10,8 +10,6 @@ export class AppComponent {
   a: any = {};
 
   constructor() {
-    const f = (a: any) => a.b;
-    f(this.a.b.c);
     throw new Error('test');
   }
 
