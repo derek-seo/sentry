@@ -36,7 +36,7 @@ jobs:
         SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
       with:
         environment: production
-        sourcemaps: './'
+        sourcemaps: './test/sentry/'
         version_prefix: 'sentry@'
         version: '2.0.0'
         url_prefix: '~'
